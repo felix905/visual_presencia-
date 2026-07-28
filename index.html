@@ -2460,8 +2460,12 @@
                 el.input.addEventListener("input", handleInput);
                 el.input.addEventListener("focus", () => {
                     el.shell.classList.add("vp-focused");
+<<<<<<< HEAD
                     // Se elimina openDropdown() de aquí para que el buscador inicie cerrado
                     // y solo se despliegue al hacer clic o empezar a escribir.
+=======
+                    openDropdown();
+>>>>>>> 69901689c5073d5f09c45ba9df1baca387d6ed69
                 });
                 el.input.addEventListener("click", (e) => {
                     e.stopPropagation();
